@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body
+{
+    background-color: rgb(2, 2, 29);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    height: 1000v;
+    background-image: url(./images/beach.jpg);
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(1, 1, 19)
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover
+{
+color:black;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+.left
+{
+    font-size:1rem;
+}
+.firstsection
+{
+    display: flex;
+    justify-content:space-around;
+    margin: 0px 0px;
+    width: 100%;
+}
+.firstsection > div{
+    width: 40%;
+    height: 30%;
+}
+.leftsection
+{
+    font-size: 30px;
+    margin: 50px 0;
+    color: rgb(10, 10, 9);
+    font-family: 'Times New Roman', Times, serif;
+}
+.PB
+{
+    align-items: flex-start;
+    margin:0px ;
+    padding: 0%;
+    font-size: 30px;
+}
+.rightsection img
+{
+width: 100%;
+margin: 40px 0px;
+}
+h1
+{
+justify-content:space-around ;
+color: black;
+padding: 10px;
+margin-left: 0%;
+}
+.purple
+{
+    color:rgb(13, 2, 63)
+}
+#element
+{
+    color:rgb(53, 3, 3)
+}
+.secondsection
+{
+    max-width: 80vw;
+    margin: auto;
+}
+.secondsection h1
+{
+    font-size: 40px;
+}
+.secondsection p
+{
+    font-size: 25px;
+}
+.Thirdsection 
+{
+    max-width: 80vw;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 75;
+    color:rgb(1, 10, 27) ;
+}
+.Thirdsection h1
+{
+    font-size: 40px;
+}
+p
+{
+ margin: 30px 0px;
+color: rgb(0, 0, 0);
+font-size: 25px;
+}
+.team
+{
+    font-size: 40px;
+    font-weight: 100;
+}
+.team ul
+{
+    color:rgb(4, 4, 48);
+    font-size: 25px;
+    font-weight: 75px;
+}
+    </style>
+</head>
+<body style="background-image: url(./images/beach.jpg);">
+    <header>
+        <nav>
+            <div class="PB">PERSONAL BLOG</div>
+            <div class="left"></div>
+            <div class="right">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+             
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+        </div>
+        <section class="firstsection">
+            <div class="leftsection">
+                <h1>Travel Blogs</h1>
+             Hi Everyone ! This is <span class="purple">J.Enoch</span> ,
+                <span id="element"></span>
+                <p>Here I am Sharing my personal travel blog places.Marina Beach, a shimmering gem on the southeastern coast of India, holds a special place in the hearts of Chennai's residents and tourists alike. With its golden sands, vibrant culture, and stunning sunsets, this iconic destination offers an unforgettable beach experience. Join us as we embark on a virtual journey to Marina Beach and discover the enchantment it has to offer.</p>
+                <div class="team">Our Team Members
+                    <br>
+                    <ul>Mohammad Sharik</ul>
+                    <ul>Mohammad Muqbil Sinan</ul>
+                    <ul>Jai Ganesh</ul>
+                    <ul>Enoch</ul>
+                </div>
+                
+            </div>
+            <div class="rightsection">
+             <img src="images/beach.jpg" alt="#">
+            </div>
+        </section>
+        <section class="secondsection">
+            <h1>Landmarks Along the Shore:</h1> <br>
+
+                <p>Marina Lighthouse: Start your exploration with a visit to the iconic lighthouse. Climb to the top for panoramic views of the city and the sea.
+                Anna Memorial: This memorial dedicated to C.N. Annadurai, a revered Tamil politician, is a prominent landmark on the beach.
+                Victory War Memorial: A poignant reminder of India's military history, this memorial is a place of reflection and honor. </p>
+        </section>
+        <section class="Thirdsection"><h1><b>Sunsets to Remember:</b></h1>
+            <p>As evening descends, Marina Beach transforms into a magical wonderland. The horizon is painted with hues of orange and pink, and the warm sea breeze carries the sounds of laughter and joy. Sunset at Marina Beach is a sight you'll cherish forever.</p></section>
+            
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['College Student', 'Programmer','Musician.'],
+          typeSpeed: 50,
+        });
+      </script>
+      
+      
+</body>
+</html>
