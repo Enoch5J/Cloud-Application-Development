@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    div
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    div img{
+        width: 400px;
+        height: 300px;
+        border: 2px solid #0ef;
+        border-radius: 4px 7px 7px 0px black;
+        cursor :pointer;
+        margin: 10px;
+        transition: 400ms;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 13px;
+        border-right: 10px;
+        border-radius: 20px;
+        transition:background 0.5s transform 0.5s;
+        box-shadow: 5px 5px 30px #012290f7,
+        5px 5px 30px #0053b8f7;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: calc(.2s * var(--i));
+        margin: 30px 15px 30px 0;
+    }
+    div img:hover
+    {
+        filter:grayscale(1);
+        transform: scale(1.03);
+    }
+</style>
+<body>
+    <section class="about" id="about">
+        <div class="about-text">
+                <h4>Photos</h4>
+                <div>
+                    <img src="images/h1.jpg" alt="">
+                    <img src="images/h2.jpg" alt="">
+                    <img src="images/h3.jpg" alt="">
+                    <img src="images/h4.jpg" alt="">
+                    <img src="images/h5.jpg" alt="">
+                    <img src="images/h6.jpg" alt="">
+                    <img src="images/h7.jpg" alt="">
+                    <img src="images/h8.jpg" alt="">
+                    <img src="images/q1.jpg" alt="">
+                    <img src="images/q2.jpg" alt="">
+                    <img src="images/q3.jpg" alt="">
+                    <img src="images/q4.jpg" alt="">
+                    <img src="images/q5.jpg" alt="">
+                    <img src="images/q6.jpg" alt="">
+                    <img src="images/q7.jpg" alt="">
+                    <img src="images/q8.jpg" alt="">
+                    <img src="images/m1.jpg" alt="">
+                    <img src="images/m2.jpg" alt="">
+                    <img src="images/m3.jpg" alt="">
+                    <img src="images/m4.jpg" alt="">
+                    <img src="images/m5.jpg" alt="">
+                    <img src="images/m6.jpg" alt="">
+                    <img src="images/m7.jpg" alt="">
+                </div>
+                <p>
+        </div>
+    </section>
+</body>
+</html>
